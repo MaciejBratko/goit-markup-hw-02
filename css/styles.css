@@ -1,6 +1,7 @@
 body {
 	font-family: "Roboto", sans-serif;
-	color: #2e2f42;
+	color: #434455;
+	background-color: #fff;
 	font-size: 16px;
 	line-height: 1.5;
 }
@@ -15,24 +16,24 @@ a:active {
 	text-decoration-thickness: 4px;
 }
 
-.contact:active {
-	text-decoration: none;
-}
-
 a:hover {
 	color: #404bbf;
 }
+
 .order-button:hover {
 	background-color: #404bbf;
 }
+
 a:focus {
 	color: #404bbf;
 }
+
 .order-button:focus {
 	background-color: #404bbf;
 }
 
 .logo {
+	color: #4d5ae5;
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 1.17;
@@ -41,8 +42,8 @@ a:focus {
 	font-weight: 700;
 }
 
-.web-logo-text {
-	color: #4d5ae5;
+.studio-logo-text {
+	color: #2e2f42;
 }
 
 ul {
@@ -50,22 +51,28 @@ ul {
 }
 
 .top-nav-menu {
+	color: #2e2f42;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 }
 
-.contact {
+.contact a {
+	font-style: normal;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: #434455;
-	font-style: normal;
+}
+
+.contact a:active {
+	text-decoration: none;
 }
 
 .main-section {
 	background-color: #2e2f42;
+	letter-spacing: 0.02em;
 }
 
 .main-text {
@@ -78,7 +85,6 @@ ul {
 }
 
 .order-button {
-	padding: 16px 32px;
 	margin: 10px;
 	background-color: #4d5ae5;
 	font-weight: 500;
@@ -86,8 +92,6 @@ ul {
 	line-height: 24px;
 	letter-spacing: 0.04em;
 	color: #fff;
-	border-radius: 4px;
-	box-shadow: 0 4px 4px 0 #00000026;
 	cursor: pointer;
 }
 
@@ -110,24 +114,63 @@ h2 {
 	letter-spacing: 0.02em;
 }
 
-.team-section p {
+.team-section {
+	background-color: #f4f4fd;
+}
+
+.team-section-header {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.team-section-list-element {
+	background-color: #ffffff;
+}
+
+.team-section-name-paragraph {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	text-align: center;
+	color: #434455;
 }
+
+.info-text {
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
 .portfolio-section p {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	text-align: left;
 }
-footer {
+
+.portfolio-section-header {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.portfolio-section-type {
+	color: #434455;
+}
+
+.footer {
 	background-color: #2e2f42;
 }
-footer p {
+
+.footer .logo {
+	color: #4d5ae5;
+}
+
+.footer span {
+	color: #f4f4fd;
+}
+
+.footer p {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-align: left;
 	color: #f4f4fd;
