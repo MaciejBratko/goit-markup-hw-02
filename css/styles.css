@@ -16,7 +16,8 @@ a:active {
 	text-decoration-thickness: 4px;
 }
 
-a:hover {
+a:hover,
+a:focus {
 	color: #404bbf;
 }
 
@@ -26,7 +27,7 @@ a:hover {
 	color: #404bbf;
 }
 
-.order-button:hover {
+.contact-info:focus .order-button:hover {
 	background-color: #404bbf;
 }
 
@@ -68,16 +69,15 @@ ul {
 	font-style: normal;
 }
 
-.contact a {
+.contact-info {
 	font-style: normal;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
-	color: #434455;
 }
 
-.contact a:hover,
-.contact a:active {
+.contact-info:hover,
+.contact-info:active {
 	color: #404bbf;
 	text-decoration: none;
 }
