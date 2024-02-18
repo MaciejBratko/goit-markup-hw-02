@@ -1,0 +1,134 @@
+body {
+	font-family: "Roboto", sans-serif;
+	color: #2e2f42;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active {
+	color: #404bbf;
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+}
+
+.contact:active {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #404bbf;
+}
+.order-button:hover {
+	background-color: #404bbf;
+}
+a:focus {
+	color: #404bbf;
+}
+.order-button:focus {
+	background-color: #404bbf;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+.web-logo-text {
+	color: #4d5ae5;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.top-nav-menu {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+}
+
+.contact {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #434455;
+	font-style: normal;
+}
+
+.main-section {
+	background-color: #2e2f42;
+}
+
+.main-text {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: #fff;
+}
+
+.order-button {
+	padding: 16px 32px;
+	margin: 10px;
+	background-color: #4d5ae5;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 4px 4px 0 #00000026;
+	cursor: pointer;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: left;
+}
+
+.info-section p {
+	text-align: left;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+}
+
+.team-section p {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.portfolio-section p {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: left;
+}
+footer {
+	background-color: #2e2f42;
+}
+footer p {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #f4f4fd;
+}
