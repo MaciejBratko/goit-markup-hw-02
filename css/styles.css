@@ -21,7 +21,8 @@ a:hover {
 }
 
 .top-nav-menu:hover,
-.top-nav-menu:active {
+.top-nav-menu:active,
+.top-nav-menu:focus {
 	color: #404bbf;
 }
 
@@ -120,6 +121,10 @@ h3 {
 }
 
 .info-section-header {
+	color: #2e2f42;
+}
+
+.info-section-goals {
 	color: #2e2f42;
 }
 
