@@ -58,6 +58,10 @@ ul {
 	letter-spacing: 0.02em;
 }
 
+.contact {
+	font-style: normal;
+}
+
 .contact a {
 	font-style: normal;
 	font-size: 16px;
@@ -66,7 +70,9 @@ ul {
 	color: #434455;
 }
 
+.contact a:hover,
 .contact a:active {
+	color: #404bbf;
 	text-decoration: none;
 }
 
@@ -79,7 +85,7 @@ ul {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.02em;
 	text-align: center;
 	color: #fff;
 }
@@ -105,6 +111,7 @@ h3 {
 
 .info-section p {
 	text-align: left;
+	color: #2e2f42;
 }
 
 h2 {
@@ -121,10 +128,15 @@ h2 {
 .team-section-header {
 	text-align: center;
 	text-transform: capitalize;
+	color: #2e2f42;
 }
 
 .team-section-list-element {
 	background-color: #ffffff;
+}
+
+.team-section-name-header {
+	color: #2e2f42;
 }
 
 .team-section-name-paragraph {
@@ -150,6 +162,11 @@ h2 {
 .portfolio-section-header {
 	text-align: center;
 	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.portfolio-section-element-name {
+	color: #2e2f42;
 }
 
 .portfolio-section-type {
